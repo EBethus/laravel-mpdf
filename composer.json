@@ -3,9 +3,19 @@
     "description": "Laravel Mpdf: Using Mpdf in Laravel 5 for generate Pdfs.",
     "keywords": ["mpdf", "pdf", "laravel"],
     "license": "MIT",
+     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/EBethus/laravel-mpdf.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/EBethus/mpdf.git"
+        }
+    ],
     "require": {
         "php": ">=7.0.0",
-        "mpdf/mpdf": "^8.0"
+        "mpdf/mpdf": "dev-master"
     },
     "autoload": {
         "psr-4": {"Meneses\\LaravelMpdf\\": "src/LaravelMpdf"}
