@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "mpdf/mpdf": "dev-master"
+        "ebethis/mpdf": "dev-master"
     },
     "autoload": {
         "psr-4": {"Meneses\\LaravelMpdf\\": "src/LaravelMpdf"}
